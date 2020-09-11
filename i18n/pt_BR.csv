@@ -1,0 +1,54 @@
+"Sorry, your payment could not be processed. (Code: %1)","Desculpe, seu pagamento não pôde ser processado. (Código:% 1)"
+"Invalid Payment Method",Método de pagamento inválido
+"Sorry, your payment could not be processed. (Code: ERR01)","Desculpe, seu pagamento não pôde ser processado. (Código: ERR01)"
+"Sorry, your refund could not be processed. (Code: %1)","Desculpe, seu reembolso não pôde ser processado. (Código:% 1)"
+Mexico,México
+Ecuador,Equador
+Colombia,Colômbia
+Brazil,Brasil
+Peru,Peru
+Argentina,Argentina
+Venezuela,Venezuela
+Chile,Chile
+"Mexican Peso",Peso mexicano
+"US Dollar",Dólar americano
+"Colombian Peso",Peso colombiano
+"Brazilian Real",real brasileiro
+"Peruvian Nuevo Sol",Novo Sol Peruano
+"Argentine Peso",Peso argentino
+"Venezuelan Bolívar",Bolívar venezuelano
+"Chilean Peso",Peso chileno
+Staging,Staging
+Production,Produção
+Authorize,Autorizar
+"Authorize & Capture",Autorizar e capturar
+"Place Order",Faça a encomenda
+"%1 installments",% 1 parcelas
+Shieldgate,Shieldgate
+Enabled,Ativado
+"Card Options",Opções de cartão
+"Active pay with card",Pagamento ativo com cartão
+Title,Título
+Environment,Ambiente
+"Payment Action",Ação de Pagamento
+"Supported Brands",Marcas Suportadas
+"Allow Installments",Permitir parcelas
+"Minimum Order Total",Total mínimo do pedido
+"Maximum Order Total",Total Máximo do Pedido
+"Leave empty to disable limit",Deixe em branco para desativar o limite
+"Sort Order",Ordem de classificação
+"LinkToPay Options",Opções de LinkToPay
+"Active pay with LTP",Pagamento ativo com LTP
+Credentials,Credenciais
+"Production Server Application Code",Production Server Application Code
+"Production Server Application Key",Production Server Application Key
+"Production Client Application Code",Production Client Application Code
+"Production Client Application Key",Production Client Application Key
+"Staging Server Application Code",Staging Server Application Code
+"Staging Server Application Key",Staging Server Application Key
+"Staging Client Application Code",Staging Client Application Code
+"Staging Client Application Key",Staging Client Application Key
+"Supported Countries",Países suportados
+"Supported Currencies",Moedas suportadas
+Debug,Depurar
+In how many installments do you want to pay?,Quantas parcelas você deseja pagar?

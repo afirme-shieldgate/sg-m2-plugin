@@ -1,0 +1,22 @@
+{
+    "name": "shieldgate/payment-gateway",
+    "description": "ShieldGate integration for Magento 2",
+    "require": {
+        "magento/magento-composer-installer": "^0.1.13",
+        "shieldgate/sdk": "^1"
+    },
+    "type": "magento2-module",
+    "version": "2.1.4",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Shieldgate\\PaymentGateway\\": ""
+        }
+    }
+}
