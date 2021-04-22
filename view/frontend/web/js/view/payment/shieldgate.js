@@ -22,6 +22,14 @@ define(
                 }
             );
         }
+        if (config.shieldgate_ltp.is_active) {
+            rendererList.push(
+                {
+                    type: 'shieldgate_ltp',
+                    component: 'Shieldgate_PaymentGateway/js/view/payment/method-renderer/shieldgate_ltp'
+                }
+            );
+        }
         /** Add view logic here if needed */
         return Component.extend({});
     }

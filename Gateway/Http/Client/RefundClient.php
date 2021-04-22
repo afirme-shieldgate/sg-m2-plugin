@@ -45,12 +45,20 @@ class RefundClient extends AbstractClient
                 'id' => $request_body['user']['id']
             ];
             $this->logger->debug('RefundClient.process Use verify for review transactions...');
-            $response = $charge->verify('BY_AMOUNT', (string)$request_body['order']['amount'], $payment->getParentTransactionId(), $user, true);
-            $response = json_decode(json_encode($response), true);
-            $this->logger->debug('RefundClient.process Verify response => ', $response);
-            if (isset($response['transaction']['status']) && $response['transaction']['status'] == 'failure') {
-                $response['status'] = 'success';
-                return (array)$response;
+
+            try {
+                $response = (array)$charge->verify('BY_AMOUNT', (string)$request_body['order']['amount'], $payment->getParentTransactionId(), $user, true);
+                $response = json_decode(json_encode($response), true);
+                $this->logger->debug('RefundClient.process Verify response => ', $response);
+
+                if (isset($response['transaction']['status']) && $response['transaction']['status'] == 'failure') {
+                    return $response;
+                }
+            } catch (ShieldgateErrorException $e) {
+                $code = $e->getCode();
+                if ($code !== 403) {
+                    throw $e;
+                }
             }
         }
 

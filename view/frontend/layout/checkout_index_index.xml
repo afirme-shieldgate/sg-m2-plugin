@@ -30,9 +30,11 @@
                                                                         <item name="shieldgate_card" xsi:type="array">
                                                                             <item name="isBillingAddressRequired" xsi:type="boolean">true</item>
                                                                         </item>
+                                                                        <item name="shieldgate_ltp" xsi:type="array">
+                                                                            <item name="isBillingAddressRequired" xsi:type="boolean">true</item>
+                                                                        </item>
                                                                     </item>
                                                                 </item>
-
                                                             </item>
                                                         </item>
                                                     </item>

@@ -8,7 +8,7 @@ This module is a solution that allows Magento users to easily process payments w
 
 Install the latest version.  `composer require shieldgate/payment-gateway`
 
-Install a specific version.  `composer require shieldgate/payment-gateway:2.1.4`
+Install a specific version.  `composer require shieldgate/payment-gateway:2.2.0`
 
 Once the installation finished, continue with the next commands in your bash terminal.
 
@@ -32,4 +32,4 @@ Now you can see the ShieldGate settings in this path `Stores > Configuration > S
 
 
 ## Maintenance
-If you need update the plugin to latest version execute: `composer update shieldgate/payment-gateway` or `composer require shieldgate/payment-gateway:2.1.4` for specific version.
+If you need update the plugin to latest version execute: `composer update shieldgate/payment-gateway` or `composer require shieldgate/payment-gateway:2.2.0` for specific version.

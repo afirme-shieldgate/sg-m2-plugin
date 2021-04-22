@@ -53,7 +53,7 @@ class RefundHandler implements HandlerInterface
         $detail = $response['detail'];
         $amount = isset($transaction['refund_amount']) ? $transaction['refund_amount'] : $transaction['amount'];
 
-        if ($status == 'failure') {
+        if (in_array($status_detail, $this->GetInvalidStatusDetailsForRefund())) {
             $rejected_msg = __('Sorry, your refund could not be processed. (Code: %1)', $detail);
             throw new MagentoValidatorException($rejected_msg);
         }
@@ -73,5 +73,10 @@ class RefundHandler implements HandlerInterface
         $payment->setIsTransactionClosed(1);
         $payment->setShouldCloseParentTransaction(1);
         $this->logger->debug(sprintf('RefundHandler.handle Closed transaction: %s', $transaction_id));
+    }
+
+    public function GetInvalidStatusDetailsForRefund()
+    {
+        return [2, 3, 4, 5, 30, 38, 39, 41, 42, 43];
     }
 }
