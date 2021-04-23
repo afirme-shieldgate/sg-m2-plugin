@@ -15,7 +15,8 @@ define(
                 template: 'Shieldgate_PaymentGateway/payment/shieldgate_ltp'
             },
             afterPlaceOrder: function () {
-                redirectOnSuccessAction.redirectUrl = url.build("redirectlinktopay/placeorder/placeorder");
+                redirectOnSuccessAction.redirectUrl = url.build("redirectlinktopayshieldgate/placeorder/placeorder");
+                this.redirectAfterPlaceOrder = true;
                 redirectOnSuccessAction.execute();
             }
         });

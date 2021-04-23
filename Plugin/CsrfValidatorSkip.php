@@ -17,7 +17,7 @@ namespace Shieldgate\PaymentGateway\Plugin;
          $request,
          $action
      ) {
-         if ($request->getOriginalPathInfo() == '/rest/V2/webhook/updateOrderWebhook') {
+         if ($request->getOriginalPathInfo() == '/rest/V2/webhook/shieldgate') {
              return; // Skip CSRF check
          }
          $proceed($request, $action); // Proceed Magento 2 core functionalities
