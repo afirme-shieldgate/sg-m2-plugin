@@ -3,7 +3,7 @@
 namespace Shieldgate\PaymentGateway\Gateway\Http\Client;
 
 use Magento\Sales\Model\Order\Payment;
-use Shieldgate\Shieldgate;
+use Payment\Payment as Shieldgate;
 use Shieldgate\PaymentGateway\Gateway\Config\CardConfig;
 use Shieldgate\PaymentGateway\Gateway\Config\GatewayConfig;
 
