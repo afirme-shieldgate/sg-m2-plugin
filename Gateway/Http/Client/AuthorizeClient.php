@@ -2,7 +2,7 @@
 
 namespace Shieldgate\PaymentGateway\Gateway\Http\Client;
 
-use Shieldgate\Shieldgate;
+use Payment\Payment as Shieldgate;
 use Shieldgate\PaymentGateway\Gateway\Config\CardConfig;
 use Shieldgate\PaymentGateway\Gateway\Config\GatewayConfig;
 use Shieldgate\PaymentGateway\Model\Adminhtml\Source\Currency;
