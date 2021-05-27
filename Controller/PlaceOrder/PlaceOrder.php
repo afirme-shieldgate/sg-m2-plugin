@@ -21,7 +21,7 @@ use Shieldgate\PaymentGateway\Helper\Logger;
  */
 class PlaceOrder extends AbstractController
 {
-    const LTP_PATH = "shieldgate.com/linktopay/init_order/";
+    const LTP_PATH = "shieldgate.mx/linktopay/init_order/";
     /**
      * @var AgreementsValidatorInterface
      */
