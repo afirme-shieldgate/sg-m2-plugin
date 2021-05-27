@@ -6,7 +6,7 @@ use Magento\Framework\Validator\Exception as MagentoValidatorException;
 use Magento\Payment\Gateway\Http\ClientInterface;
 use Magento\Payment\Gateway\Http\TransferInterface;
 use Shieldgate\Exceptions\ShieldgateErrorException;
-use Shieldgate\Shieldgate;
+use Payment\Payment as Shieldgate;
 use Shieldgate\PaymentGateway\Gateway\Config\GatewayConfig;
 use Shieldgate\PaymentGateway\Helper\Logger;
 
