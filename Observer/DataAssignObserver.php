@@ -8,6 +8,7 @@ use Magento\Framework\Validator\Exception as MagentoValidatorException;
 use Magento\Payment\Observer\AbstractDataAssignObserver;
 use Shieldgate\PaymentGateway\Gateway\Config\CardConfig;
 use Shieldgate\PaymentGateway\Gateway\Config\GatewayConfig;
+use Shieldgate\PaymentGateway\Gateway\Config\LinkToPayConfig;
 use Shieldgate\PaymentGateway\Helper\Logger;
 
 class DataAssignObserver extends AbstractDataAssignObserver
