@@ -163,7 +163,7 @@ define(
             },
 
             getAvailableInstallmentsTypes: function () {
-                let config_installments_types = window.checkoutConfig.payment['paymentez_card'].installments_types;
+                let config_installments_types = window.checkoutConfig.payment['shieldgate_card'].installments_types;
                 let installments_options = [
                     {'value':2, 'text': $t('Deferred with interest')},
                     {'value':3, 'text': $t('Deferred without interest')},
