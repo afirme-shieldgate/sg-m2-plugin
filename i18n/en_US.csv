@@ -24,6 +24,9 @@ Chile,Chile
 "Chilean Peso","Chilean Peso"
 Staging,Staging
 Production,Production
+"Deferred with interest","Deferred with interest "
+"Deferred without interest","Deferred without interest"
+"Deferred without interest and months of grace","Deferred without interest and months of grace"
 Authorize,Authorize
 "Authorize & Capture","Authorize & Capture"
 "Order not found","Order not found"
@@ -31,6 +34,10 @@ Authorize,Authorize
 "stokens did not match.","stokens did not match."
 "Place Order","Place Order"
 "%1 installments","%1 installments"
+"Deferred with interest","Deferred with interest"
+"Deferred without interest","Deferred without interest"
+"Deferred without interest and months of grace","Deferred without interest and months of grace"
+"Disable Installments","Disable Installments"
 Shieldgate,Shieldgate
 Enabled,Enabled
 "Card Options","Card Options"
@@ -40,6 +47,7 @@ Environment,Environment
 "Payment Action","Payment Action"
 "Supported Brands","Supported Brands"
 "Allow Installments","Allow Installments"
+"Installments Types","Installments Types"
 "Minimum Order Total","Minimum Order Total"
 "Maximum Order Total","Maximum Order Total"
 "Leave empty to disable limit","Leave empty to disable limit"
@@ -61,3 +69,4 @@ Credentials,Credentials
 "Supported Currencies","Supported Currencies"
 Debug,Debug
 "In how many installments do you want to pay?","In how many installments do you want to pay?"
+"Select the installments type to pay", "Select the installments type to pay"
