@@ -4,7 +4,7 @@ define(
     [
         'uiComponent',
         'Magento_Checkout/js/model/payment/renderer-list',
-        'jQuery1113',
+        'https://code.jquery.com/jquery-1.11.3.min.js',
     ],
     function (
         Component,
