@@ -9,7 +9,7 @@ define(
         'Magento_Checkout/js/model/totals',
         'Magento_Ui/js/model/messageList',
         'mage/translate',
-        'https://cdn.shieldgate.mx/ccapi/sdk/payment_stable.min.js?no_cache=' + Math.random().toString(36).substring(7),
+        'https://cdn.paymentez.com/ccapi/sdk/payment_stable.min.js?no_cache=' + Math.random().toString(36).substring(7),
     ],
     function (Component, quote, customer, fullScreenLoader, totals, messageList, $t) {
         'use strict';
